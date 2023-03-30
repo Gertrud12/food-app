@@ -64,7 +64,7 @@
 }
 
 
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 992px) {
    .box1 {
       background-image: none !important;
       height: 382px !important;
@@ -77,6 +77,7 @@
    .head-para1 {
       color: #000;
       text-align: left;
+      font-size: small;
    }
 
    .aHead-para1{
@@ -85,12 +86,17 @@
    }
 
    .first-btn1{
-      font-weight: 700;
-      margin-left: -980px;
-   }
-   .second-btn{
+      font-weight: 100;
+      position: relative;
+      padding: 8px 20px;
+      margin-left: 15px;
+        }
+   .firstOther-btn{
       color: #FA4A0C;
-      font-weight: 700;
+      font-weight: 100;
       border:2px solid #FA4A0C ;
+      position: absolute;
+      margin-top: 60px;
+      padding: 8px 20px;
    }
 }
