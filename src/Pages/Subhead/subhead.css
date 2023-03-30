@@ -1,0 +1,30 @@
+
+.phone{
+    position: absolute;
+    top: 450px;
+    left: 300px;
+}
+
+.image{
+    margin-top: 500px;
+}
+
+@media screen and (max-width: 650px) {
+    .phone {
+        position: relative;
+        top: 0;
+        left: -39px;
+        padding-left: -40px;
+    }
+
+    .phone img {
+        width: 100% !important;
+    }
+
+}
+
+@media screen and (max-width: 650px) {
+    .image{
+        display: none;
+    }
+}

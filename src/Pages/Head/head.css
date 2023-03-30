@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap');
+
+.head1{
+   padding-top: 70px;
+}
+
+.box1{
+   margin-top: -80px;
+}
+.head{
+   font-family: "Poppins" "San Serif";
+   color: white;
+   font-size: 300;
+   padding-top: 80px;
+   text-align: center;
+}
+
+.head-para{
+   font-family: "Poppins" "San Serif";
+   color: white;
+   font-size: 700;
+   text-align: center;
+   padding-top: 10px;
+}
+
+.aHead-para{
+   font-family: "Poppins" "San Serif";
+   color: white;
+   font-size: 300;
+   text-align: center;
+}
+
+.bbtn{
+   display: flex;
+   justify-content: center;
+   margin-top: 50px;
+   font-family: "Montserrat" "sans serif";
+   font-size: 300;
+   font-style: normal;
+}
+
+.first-btn1{
+   border-radius: 40px;
+   background-color: #FA4A0C;
+   border-color: #FA4A0C;
+   padding: 10px 50px;
+   color: #fff;
+   outline: none;
+   outline: none;
+   border: #FA4A0C solid 2px;
+}
+
+.firstOther-btn{
+   padding: 7px 30px;
+   border-radius: 10px;
+   background-color: transparent;
+   color: #fff;
+   border: 1px solid #fff;
+}
+
+.top-it {
+   color: #fff;
+}
+
+
+@media screen and (max-width: 650px) {
+   .box1 {
+      background-image: none !important;
+      height: 382px !important;
+   }
+
+   .head1{
+      color: #000;
+   }
+
+   .head-para1 {
+      color: #000;
+      text-align: left;
+   }
+
+   .aHead-para1{
+      color: #000;
+      text-align: left;
+   }
+
+   .first-btn1{
+      font-weight: 700;
+      margin-left: -980px;
+   }
+   .second-btn{
+      color: #FA4A0C;
+      font-weight: 700;
+      border:2px solid #FA4A0C ;
+   }
+}

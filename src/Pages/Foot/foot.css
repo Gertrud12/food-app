@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap');
+
+.Section{
+    margin-top: 5%;
+}
+
+.the-btn{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    font-family: "Montserrat" "sans serif";
+    font-size: 700;
+    font-style: normal;
+ }
+ 
+ .the-first-btn{
+    background-color: #FA4A0C;
+    border-radius: 5px;
+    color: #fff;
+    padding: 7px 40px;
+    border-color: #FA4A0C;
+   margin-right: 30px;
+
+ }
+ 
+ .the-second-btn{
+    background-color: transparent;
+    color: #fff;
+    padding: 13px 40px;
+    border-radius: 5px;
+    border-color: #fff;
+ }
+
+ @media screen and (max-width: 992px) {
+   .another-box {
+       background: #252B42 !important;
+       width: 100%;
+   }
+   .head{
+      color: #fff;
+      width: 100%;
+      text-align: left;
+   }
+   .head-para{
+      color: #fff;
+      width: 100%;
+      text-align: left;
+      break-inside: auto;
+   }
+   .abtn{
+      padding: 5px 10px;
+   }
+}
